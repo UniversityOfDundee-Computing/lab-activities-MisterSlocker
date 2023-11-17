@@ -1,0 +1,29 @@
+@font-face{
+    font-family: 'custom';
+    src: url('WebFont.eot');
+    src: url('WebFont.eot?#iefix') format('embedded-opentype'),
+    url('pricedown_bl-webfont.woff') format('woff'),
+    url('pricedown-bl.otf') format('opentype'),
+    url('WebFont.svg#webfont') format('svg');
+    }
+
+body {
+    background-color: lightblue
+  }
+  
+  h1 {
+    font-family: 'custom';
+    color: navy;
+    margin-left: 20px;
+  }
+
+  h2 {
+    font-family: 'custom';
+    color: navy;
+    margin-left: 43px;
+  }
+
+  .fas {
+    float: left;
+    margin-top: 15px;
+  }
